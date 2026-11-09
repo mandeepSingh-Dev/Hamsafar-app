@@ -296,6 +296,7 @@ fun ChatCard(chat: ChatItem, onClick: () -> Unit) {
             .padding(14.dp)
     ) {
 
+
         Row(
             modifier = Modifier
                 .fillMaxWidth()
