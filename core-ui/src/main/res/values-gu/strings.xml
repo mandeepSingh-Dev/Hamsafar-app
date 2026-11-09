@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">હમસફર</string>
+    <string name="getting_started">01 • શરૂઆત</string>
+    <string name="choose_your_language">તમારી ભાષા પસંદ કરો</string>
+    <string name="language_subtitle">પહેલા નમસ્કારથી જ ઘર જેવું અનુભવો. તમે તેને ગમે ત્યારે બદલી શકો છો.</string>
+    <string name="matrimony_subtitle">દરેક સમુદાય માટે મેટ્રિમની</string>
+    <string name="continue_btn">ચાલુ રાખો</string>
+    <string name="privacy_first">ગોપનીયતા પ્રથમ. હંમેશા તમારી પસંદગી.</string>
+</resources>

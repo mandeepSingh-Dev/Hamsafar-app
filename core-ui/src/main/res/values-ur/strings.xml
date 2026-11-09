@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ہمسفر</string>
+    <string name="getting_started">01 • آغاز</string>
+    <string name="choose_your_language">اپنی زبان منتخب کریں</string>
+    <string name="language_subtitle">پہلے ہیلو سے گھر جیسا محسوس کریں۔ آپ اسے کسی بھی وقت تبدیل کر سکتے ہیں۔</string>
+    <string name="matrimony_subtitle">ہر کمیونٹی کے لیے ازدواجی رشتے</string>
+    <string name="continue_btn">جاری رکھیں</string>
+    <string name="privacy_first">پرائیویسی پہلے۔ ہمیشہ آپ کی پسند۔</string>
+</resources>

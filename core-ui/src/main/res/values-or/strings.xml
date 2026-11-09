@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ହମସଫର</string>
+    <string name="getting_started">01 • ଆରମ୍ଭ</string>
+    <string name="choose_your_language">ଆପଣଙ୍କର ଭାଷା ଚୟନ କରନ୍ତୁ</string>
+    <string name="language_subtitle">ପ୍ରଥମ ନମସ୍କାରରୁ ଘର ଭଳି ଅନୁଭବ କରନ୍ତୁ। ଆପଣ ଏହାକୁ ଯେକୌଣସି ସମୟରେ ବଦଳାଇ ପାରିବେ।</string>
+    <string name="matrimony_subtitle">ପ୍ରତ୍ୟେକ ସମାଜ ପାଇଁ ମ୍ୟାଟ୍ରିମୋନି</string>
+    <string name="continue_btn">ଜାରି ରଖନ୍ତୁ</string>
+    <string name="privacy_first">ଗୋପନୀୟତା ପ୍ରଥମେ। ସର୍ବଦା ଆପଣଙ୍କର ପସନ୍ଦ।</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">హమ్‌సఫర్</string>
+    <string name="getting_started">01 • ప్రారంభం</string>
+    <string name="choose_your_language">మీ భాషను ఎంచుకోండి</string>
+    <string name="language_subtitle">మొదటి హలో నుండే ఇంట్లో ఉన్నట్లు భావించండి. మీరు దీన్ని ఎప్పుడైనా మార్చుకోవచ్చు.</string>
+    <string name="matrimony_subtitle">ప్రతి సంఘం కోసం మ్యారీటొనీ</string>
+    <string name="continue_btn">కొనసాగించండి</string>
+    <string name="privacy_first">గోప్యత మొదటిది. ఎల్లప్పుడూ మీ ఎంపిక.</string>
+</resources>

@@ -1,0 +1,23 @@
+# Core Navigation ProGuard / R8 Keep Rules
+# Package: com.app.core_navigation
+
+# Keep Kotlinx Serialization generated classes and fields for Navigation 3 routes / destinations
+-keep class com.app.core_navigation.** { *; }
+-keepclassmembers class com.app.core_navigation.** { *; }
+
+# Keep Navigation Screen definitions & ActivityNavigator
+-keep class com.app.core_navigation.AppScreens** { *; }
+-keep class com.app.core_navigation.ChatScreens** { *; }
+-keep class com.app.core_navigation.HostScreens** { *; }
+-keep class com.app.core_navigation.UserScreens** { *; }
+-keep class com.app.core_navigation.ActivityNavigator { *; }
+
+# Preserve Kotlinx Serialization annotations and metadata
+-keepattributes Signature, RuntimeVisibleAnnotations, RuntimeVisibleParameterAnnotations, AnnotationDefault, InnerClasses, EnclosingMethod
+-keepclassmembers class * implements kotlinx.serialization.KSerializer {
+    public static final ** INSTANCE;
+}
+-keepclassmembers class * {
+    @kotlinx.serialization.SerialName <fields>;
+    @kotlinx.serialization.Serializable <fields>;
+}

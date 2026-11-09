@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ഹംസഫർ</string>
+    <string name="getting_started">01 • തുടക്കം</string>
+    <string name="choose_your_language">നിങ്ങളുടെ ഭാഷ തിരഞ്ഞെടുക്കുക</string>
+    <string name="language_subtitle">ആദ്യത്തെ ഹലോ മുതൽ വീട്ടിലെന്നപോലെ അനുഭവപ്പെടുക. നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും ഇത് മാറ്റാം.</string>
+    <string name="matrimony_subtitle">എല്ലാ സമൂഹത്തിനും മാട്രിമണി</string>
+    <string name="continue_btn">തുടരുക</string>
+    <string name="privacy_first">സ്വകാര്യത ആദ്യം. എപ്പോഴും നിങ്ങളുടെ തിരഞ്ഞെടുപ്പ്.</string>
+</resources>

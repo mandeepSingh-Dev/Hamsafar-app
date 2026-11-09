@@ -1,0 +1,20 @@
+# Feature Auth User ProGuard / R8 Keep Rules
+# Package: com.app.feature_auth_user
+
+# Keep Navigation graphs & routes
+-keep class com.app.feature_auth_user.navigation.** { *; }
+-keepclassmembers class com.app.feature_auth_user.navigation.** { *; }
+
+# Keep ViewModels
+-keep class com.app.feature_auth_user.ui.viewmodels.** { *; }
+-keepclassmembers class com.app.feature_auth_user.ui.viewmodels.** { *; }
+
+# Keep UI States & UI Events
+-keep class com.app.feature_auth_user.ui.states.** { *; }
+-keepclassmembers class com.app.feature_auth_user.ui.states.** { *; }
+
+-keep class com.app.feature_auth_user.ui.events.** { *; }
+-keepclassmembers class com.app.feature_auth_user.ui.events.** { *; }
+
+# Preserve annotations and generic signatures
+-keepattributes Signature, RuntimeVisibleAnnotations, RuntimeVisibleParameterAnnotations, AnnotationDefault, InnerClasses, EnclosingMethod

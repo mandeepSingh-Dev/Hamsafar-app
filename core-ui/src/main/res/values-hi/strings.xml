@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">हमसफर</string>
+    <string name="getting_started">01 • शुरुआत</string>
+    <string name="choose_your_language">अपनी भाषा चुनें</string>
+    <string name="language_subtitle">पहले नमस्कार से ही घर जैसा महसूस करें। आप इसे कभी भी बदल सकते हैं।</string>
+    <string name="matrimony_subtitle">हर समुदाय के लिए matrimony</string>
+    <string name="continue_btn">आगे बढ़ें</string>
+    <string name="privacy_first">गोपनीयता पहले। हमेशा आपकी पसंद।</string>
+</resources>

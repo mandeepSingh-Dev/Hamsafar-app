@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ಹಮ್‌ಸಫರ್</string>
+    <string name="getting_started">01 • ಆರಂಭ</string>
+    <string name="choose_your_language">ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="language_subtitle">ಮೊದಲ ಹಲೋನಿಂದಲೇ ಮನೆಯಲ್ಲಿರುವಂತೆ ಭಾವಿಸಿ. ನೀವು ಇದನ್ನು ಯಾವಾಗ ಬೇಕಾದರೂ ಬದಲಾಯಿಸಬಹುದು.</string>
+    <string name="matrimony_subtitle">ಪ್ರತಿಯೊಂದು ಸಮುದಾಯಕ್ಕೂ ಮ್ಯಾಟ್ರಿಮನಿ</string>
+    <string name="continue_btn">ಮುಂದುವರಿಸಿ</string>
+    <string name="privacy_first">ಗೌಪ್ಯತೆ ಮೊದಲು. ಯಾವಾಗಲೂ ನಿಮ್ಮ ಆಯ್ಕೆ.</string>
+</resources>

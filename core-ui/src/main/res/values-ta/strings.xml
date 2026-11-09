@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ஹம்சஃபர்</string>
+    <string name="getting_started">01 • தொடக்கம்</string>
+    <string name="choose_your_language">உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="language_subtitle">முதல் ஹலோவிலிருந்தே சொந்த வீட்டில் இருப்பது போல் உணருங்கள். இதை எப்போது வேண்டுமானாலும் மாற்றிக்கொள்ளலாம்.</string>
+    <string name="matrimony_subtitle">ஒவ்வொரு சமூகத்திற்கும் மேட்ரிமனி</string>
+    <string name="continue_btn">தொடரவும்</string>
+    <string name="privacy_first">தனியுரிமைக்கு முதலிடம். எப்போதும் உங்கள் விருப்பம்.</string>
+</resources>

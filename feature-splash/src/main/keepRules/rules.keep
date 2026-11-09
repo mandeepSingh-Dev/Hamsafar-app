@@ -1,0 +1,13 @@
+# Feature Splash ProGuard / R8 Keep Rules
+# Package: com.app.feature_splash
+
+# Keep Navigation Graphs and Screens
+-keep class com.app.feature_splash.navigation.** { *; }
+-keepclassmembers class com.app.feature_splash.navigation.** { *; }
+
+# Keep ViewModels
+-keep class com.app.feature_splash.ui.SplashViewModel { *; }
+-keepclassmembers class com.app.feature_splash.ui.SplashViewModel { *; }
+
+# Preserve annotations and generic signatures
+-keepattributes Signature, RuntimeVisibleAnnotations, RuntimeVisibleParameterAnnotations, AnnotationDefault, InnerClasses, EnclosingMethod

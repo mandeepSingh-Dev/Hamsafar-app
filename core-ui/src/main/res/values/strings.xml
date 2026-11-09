@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hamsafar</string>
+    <string name="getting_started">01 • GETTING STARTED</string>
+    <string name="choose_your_language">Choose your language</string>
+    <string name="language_subtitle">Feel at home, from the first hello. You can change this anytime.</string>
+    <string name="matrimony_subtitle">Matrimony for every community</string>
+    <string name="continue_btn">Continue</string>
+    <string name="privacy_first">Privacy first. Always your choice.</string>
+</resources>

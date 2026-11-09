@@ -1,0 +1,34 @@
+# Core Auth ProGuard / R8 Keep Rules
+# Package: com.app.core_auth
+
+# Keep all Data Transfer Objects (DTOs) used for API Request & Response (Gson / Retrofit serialization)
+-keep class com.app.core_auth.model.** { *; }
+-keepclassmembers class com.app.core_auth.model.** { *; }
+
+-keep class com.app.core_auth.model.requestBody.** { *; }
+-keepclassmembers class com.app.core_auth.model.requestBody.** { *; }
+
+-keep class com.app.core_auth.model.response.** { *; }
+-keepclassmembers class com.app.core_auth.model.response.** { *; }
+
+# Keep Retrofit Service interfaces and method signatures
+-keep interface com.app.core_auth.remote.AuthService { *; }
+-keepclassmembers interface com.app.core_auth.remote.AuthService { *; }
+
+# Keep Repository implementation & Domain Use Cases used with Dependency Injection (Hilt)
+-keep class com.app.core_auth.remote.AuthRepositoryImpl { *; }
+-keep class com.app.core_auth.domain.** { *; }
+-keepclassmembers class com.app.core_auth.domain.** { *; }
+
+# Keep Dependency Injection Modules (Dagger / Hilt)
+-keep class com.app.core_auth.di.** { *; }
+-keepclassmembers class com.app.core_auth.di.** { *; }
+
+# Keep Enums
+-keepclassmembers enum com.app.core_auth.utils.** {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+# Preserve Serialization annotations & generic signatures
+-keepattributes Signature, RuntimeVisibleAnnotations, RuntimeVisibleParameterAnnotations, AnnotationDefault, InnerClasses, EnclosingMethod

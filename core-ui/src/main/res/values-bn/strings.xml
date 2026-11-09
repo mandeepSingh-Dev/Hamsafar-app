@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">হমসফর</string>
+    <string name="getting_started">01 • শুরু হচ্ছে</string>
+    <string name="choose_your_language">আপনার ভাষা বেছে নিন</string>
+    <string name="language_subtitle">প্রথম হ্যালো থেকেই বাড়িতে অনুভব করুন। আপনি এটি যেকোনো সময় পরিবর্তন করতে পারেন।</string>
+    <string name="matrimony_subtitle">প্রতিটি সম্প্রদায়ের জন্য ম্যাট্রিমনি</string>
+    <string name="continue_btn">চালিয়ে যান</string>
+    <string name="privacy_first">গোপনীয়তা প্রথম। সর্বদা আপনার পছন্দ।</string>
+</resources>

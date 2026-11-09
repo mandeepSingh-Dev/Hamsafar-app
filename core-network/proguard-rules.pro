@@ -1,0 +1,51 @@
+# Core Network ProGuard / R8 Keep Rules
+# Namespace: com.app.core_network (Supports com.uae.core_network and com.app.core_network packages)
+
+# Keep core_network package classes across both legacy and new package names
+-keep class com.uae.core_network.** { *; }
+-keepclassmembers class com.uae.core_network.** { *; }
+
+-keep class com.app.core_network.** { *; }
+-keepclassmembers class com.app.core_network.** { *; }
+
+# Keep Encryption, Interceptors, Key Managers, and Helpers
+-keep class com.uae.core_network.AESCryptoInterceptor { *; }
+-keep class com.uae.core_network.E2EEHelper { *; }
+-keep class com.uae.core_network.data.EncryptionInterceptor { *; }
+-keep class com.uae.core_network.data.DecryptionInterceptor { *; }
+-keep class com.uae.core_network.data.ServerKeyManager { *; }
+-keep class com.uae.core_network.data.encryption.** { *; }
+-keep class com.uae.core_network.networkUtils.interceptors.** { *; }
+
+# Keep Request / Response Data Models & DTOs for Gson / Retrofit
+-keep class com.uae.core_network.data.model.** { *; }
+-keepclassmembers class com.uae.core_network.data.model.** { *; }
+
+-keep class com.uae.core_network.models.** { *; }
+-keepclassmembers class com.uae.core_network.models.** { *; }
+
+-keep class com.uae.core_network.domain.model.** { *; }
+-keepclassmembers class com.uae.core_network.domain.model.** { *; }
+
+# Keep Retrofit API Services and Repository Implementations
+-keep interface com.uae.core_network.data.service.** { *; }
+-keepclassmembers interface com.uae.core_network.data.service.** { *; }
+
+-keep class com.uae.core_network.data.repositoryImpl.** { *; }
+-keepclassmembers class com.uae.core_network.data.repositoryImpl.** { *; }
+
+-keep class com.uae.core_network.domain.CommonUseCases.** { *; }
+-keepclassmembers class com.uae.core_network.domain.CommonUseCases.** { *; }
+
+# Keep Dependency Injection Modules (Dagger / Hilt)
+-keep class com.uae.core_network.di.** { *; }
+-keepclassmembers class com.uae.core_network.di.** { *; }
+
+# Keep Network Libraries
+-keep class retrofit2.** { *; }
+-keep class okhttp3.** { *; }
+-keep class com.google.gson.** { *; }
+-keep class kotlinx.serialization.** { *; }
+
+# Preserve annotations and generic signatures
+-keepattributes Signature, RuntimeVisibleAnnotations, RuntimeVisibleParameterAnnotations, AnnotationDefault, InnerClasses, EnclosingMethod

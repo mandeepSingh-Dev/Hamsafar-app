@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ਹਮਸਫ਼ਰ</string>
+    <string name="getting_started">01 • ਸ਼ੁਰੂਆਤ</string>
+    <string name="choose_your_language">ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string name="language_subtitle">ਪਹਿਲੇ ਹੈਲੋ ਤੋਂ ਹੀ ਘਰ ਵਰਗਾ ਮਹਿਸੂਸ ਕਰੋ। ਤੁਸੀਂ ਇਸਨੂੰ ਕਿਸੇ ਵੀ ਸਮੇਂ ਬਦਲ ਸਕਦੇ ਹੋ।</string>
+    <string name="matrimony_subtitle">ਹਰ ਭਾਈਚਾਰੇ ਲਈ ਮੈਟ੍ਰਿਮਨੀ</string>
+    <string name="continue_btn">ਜਾਰੀ ਰੱਖੋ</string>
+    <string name="privacy_first">ਗੋਪਨੀਯਤਾ ਪਹਿਲਾਂ। ਹਮੇਸ਼ਾ ਤੁਹਾਡੀ ਪਸੰਦ।</string>
+</resources>

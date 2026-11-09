@@ -1,0 +1,26 @@
+# Core UI ProGuard / R8 Keep Rules
+# Package: com.app.core_ui
+
+# Keep UI Enums and values()/valueOf() methods
+-keepclassmembers enum com.app.core_ui.enums.** {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+# Keep Local Provider states
+-keep class com.app.core_ui.local_providers.** { *; }
+-keepclassmembers class com.app.core_ui.local_providers.** { *; }
+
+# Keep UI Theme, Color, Shapes, and Typography
+-keep class com.app.core_ui.ui.theme.** { *; }
+-keepclassmembers class com.app.core_ui.ui.theme.** { *; }
+
+# Keep Custom UI Composable Components and NavItems
+-keep class com.app.core_ui.components.** { *; }
+-keepclassmembers class com.app.core_ui.components.** { *; }
+
+-keep class com.app.core_ui.ui.NavItem { *; }
+-keepclassmembers class com.app.core_ui.ui.NavItem { *; }
+
+# Preserve annotations and generic signatures
+-keepattributes Signature, RuntimeVisibleAnnotations, RuntimeVisibleParameterAnnotations, AnnotationDefault, InnerClasses, EnclosingMethod
